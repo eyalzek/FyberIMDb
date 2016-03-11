@@ -1,0 +1,21 @@
+{
+  "name": "fyber",
+  "version": "0.0.0",
+  "description": "Fyber IMDb automation challenge",
+  "main": "imdb.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eyalzek/FyberIMDb.git"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "author": "Eyal Zekaria",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mocha": "~2.4.5",
+    "webdriverio": "~3.1.0",
+    "q": "~1.4.1",
+    "underscore": "~1.8.3"
+  }
+}
