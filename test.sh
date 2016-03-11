@@ -3,7 +3,7 @@
 # download selenium server if doesn't exist
 if [ ! -f "selenium-server-standalone-2.52.0.jar" ]; then
     echo "downloading selenium server standalone..."
-    wget http://selenium-release.storage.googleapis.com/2.52/selenium-server-standalone-2.52.0.jar
+    wget -q http://selenium-release.storage.googleapis.com/2.52/selenium-server-standalone-2.52.0.jar
 fi
 
 echo "starting selenium server..."
